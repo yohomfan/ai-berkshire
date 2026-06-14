@@ -4616,4 +4616,33 @@ Nvidia直接入场采购HVLP4铜箔，2026年预估缺口1,500吨（futunn.com 2
 
 *来源：BigGo Finance 4/30/2026（AXTI Q1电话会） | semiconductor-today.com 5/5/2026*
 
+## 【2026-06-14 22:05更新】
+
+### ICL Group（NYSE:ICL）— 美伊MOU催化剂状态更新
+
+**更新时间**：2026-06-14 22:05
+
+**本轮新信号**（来自22:05扫描多信源确认）：
+
+| 来源 | 内容 | 方向 |
+|------|------|------|
+| NBC News（6/14） | "Pakistan says U.S.-Iran deal text has been reached; Iran holding 'final' deliberations" | ✅ 正面：deal text已确认 |
+| ABC News（6/14） | Trump宣布"美伊已达成协议，将开放Hormuz"，签约"迫在眉睫" | ✅ 正面 |
+| Fortune（6/14） | "Iran pushes differing versions of deal as U.S. sticks to timeline" | ⚠️ 谨慎：伊方细节仍有异议 |
+
+**综合判断**：
+- 协议框架：已确认（据Pakistan外长）
+- 文本措辞：伊方仍在推进"不同版本"细节
+- 最终障碍：Khamenei最高领袖批准
+- 协议条款（若签署）：Hormuz即时开放（无过路费）→ 30天内恢复战前航运 → 60天停火延期 → 制裁解除
+
+**vs. 13:05扫描（签署概率~40%）**：
+- NBC/Pakistan确认deal text = 比13:05时更接近签署
+- 但Fortune"differing versions"提醒细节仍有摩擦
+- 概率估算：~45-55%在6/15-6/16签署（略升于13:05的40%）
+
+**ICL评级**：**★★★★★ 维持**。催化剂方向不变，时间线仍在"数日内"区间（6/15-6/16高风险区间）。
+
+*来源：NBC News（2026-06-14）/ ABC News（2026-06-14）/ Fortune（2026-06-14）*
+
 **下一催化剂**：Q2 2026财报（~2026年8月）
