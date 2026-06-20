@@ -6374,3 +6374,35 @@ H2执行是关键：论点不变，等待H2利润率兑现。
 
 来源：[IDC Global Memory Shortage](https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/) · [Tech-insider HBM 23%](https://tech-insider.org/memory-chip-shortage-2026-ai-consumer-electronics/)
 
+
+---
+
+## 更新 2026-06-20 24:00（第253轮）
+
+### 新增：Centrus Energy（NYSE: LEU）★★ — 美国唯一HALEU生产商
+
+**触发事件**：2026年6月18日，Centrus与Oklo签署非约束性LOI，向1.2 GW俄亥俄Aurora核能园区供应HALEU，目标2029年起交付。
+
+| 指标 | 数值 | 备注 |
+|------|------|------|
+| 市值 | **~$3.77B** | Robinhood 6/19 |
+| TTM营收 | **$436.9M** | Q1 2026报告 |
+| PS（TTM） | **8.6x** | 黄灯 |
+| PE（Forward估） | **~94x** | 黄灯+（>80x，需PEG说明） |
+| 营收同比增速 | **+4.9%**（Q1 2026 vs Q1 2025） | 低增速，PEG难看 |
+| HALEU营收占比 | **<10%**（主要为LEU/SWU） | 非纯正HALEU标的 |
+
+**估值结论**：TAM红灯触发（市值$3.77B >> 当前可触达HALEU市场上限$160M的20%）；信号强度封顶★★。
+
+**瓶颈逻辑**：HALEU是高级核反应堆S级瓶颈（俄供禁令后Centrus是美国唯一来源）；Big Tech 10+ GW核承诺驱动结构性需求；但商业收入要2029年才开始体现。
+
+**入场条件**：①有约束力商业合同（非LOI）；②营收加速>20% YoY；③股价回调至$120-130（PS~6x，PE~60x）
+
+来源：[PRNewswire Oklo-Centrus LOI 6/18](https://www.prnewswire.com/news-releases/oklo-centrus-sign-letter-of-intent-to-purchase-nuclear-fuel-for-aurora-powerhouse-deployment-in-southern-ohio-302804265.html) · [PRNewswire Q1 2026](https://www.prnewswire.com/news-releases/centrus-reports-first-quarter-2026-results-302763250.html)
+
+### Foosung（093370.KS）★★★ — Q1 2026营收确认WF6涨价落地
+
+- Q1 2026季度营收：**141,446M KRW**（vs 前季 119,253M，**+18.6% QoQ**）
+- **Forward PS（Q1年化）：~3.24x**（更吸引人，绿灯更确定）
+- TTM PS 3.77x不变（与23:00一致）
+- **结论**：WF6合同涨价70-90%已开始进入财务数据；T-11天停产催化剂逻辑完整；★★★维持
