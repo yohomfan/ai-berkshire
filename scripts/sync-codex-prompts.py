@@ -7,6 +7,7 @@ slash-command style entry point that Claude Code users expect.
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 
@@ -56,12 +57,36 @@ def prompt_for(source: Path) -> str:
 
 
 def main() -> None:
-    CODEX_PROMPTS.mkdir(exist_ok=True)
+    check = "--check" in sys.argv[1:]
+    unknown_args = [arg for arg in sys.argv[1:] if arg != "--check"]
+    if unknown_args:
+        joined = ", ".join(unknown_args)
+        raise SystemExit(f"Unknown argument(s): {joined}")
+
+    if not check:
+        CODEX_PROMPTS.mkdir(exist_ok=True)
+
     count = 0
+    stale: list[str] = []
     for source in sorted(CLAUDE_SKILLS.glob("*.md")):
         target = CODEX_PROMPTS / source.name
-        target.write_text(prompt_for(source), encoding="utf-8")
+        content = prompt_for(source)
+        if check:
+            if not target.exists() or target.read_text(encoding="utf-8") != content:
+                stale.append(str(target.relative_to(ROOT)))
+        else:
+            target.write_text(content, encoding="utf-8")
         count += 1
+
+    if check:
+        if stale:
+            print("Codex prompts are out of date:")
+            for path in stale:
+                print(f"  {path}")
+            raise SystemExit(1)
+        print(f"Checked {count} Codex prompts in {CODEX_PROMPTS.relative_to(ROOT)}")
+        return
+
     print(f"Generated {count} Codex prompts in {CODEX_PROMPTS.relative_to(ROOT)}")
 
 

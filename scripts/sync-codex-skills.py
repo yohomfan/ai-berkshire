@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import re
+import sys
 from pathlib import Path
 
 
@@ -83,20 +84,42 @@ def codex_body(name: str, source_name: str, source_text: str) -> str:
 
 
 def main() -> None:
-    CODEX_SKILLS.mkdir(exist_ok=True)
+    check = "--check" in sys.argv[1:]
+    unknown_args = [arg for arg in sys.argv[1:] if arg != "--check"]
+    if unknown_args:
+        joined = ", ".join(unknown_args)
+        raise SystemExit(f"Unknown argument(s): {joined}")
+
+    if not check:
+        CODEX_SKILLS.mkdir(exist_ok=True)
+
     count = 0
+    stale: list[str] = []
     for source in sorted(CLAUDE_SKILLS.glob("*.md")):
         name = source.stem
         source_text = source.read_text(encoding="utf-8")
         target_dir = CODEX_SKILLS / name
-        target_dir.mkdir(parents=True, exist_ok=True)
         target = target_dir / "SKILL.md"
-        target.write_text(
-            metadata_for(name, source.name, source_text)
-            + codex_body(name, source.name, source_text),
-            encoding="utf-8",
+        content = metadata_for(name, source.name, source_text) + codex_body(
+            name, source.name, source_text
         )
+        if check:
+            if not target.exists() or target.read_text(encoding="utf-8") != content:
+                stale.append(str(target.relative_to(ROOT)))
+        else:
+            target_dir.mkdir(parents=True, exist_ok=True)
+            target.write_text(content, encoding="utf-8")
         count += 1
+
+    if check:
+        if stale:
+            print("Codex skills are out of date:")
+            for path in stale:
+                print(f"  {path}")
+            raise SystemExit(1)
+        print(f"Checked {count} Codex skills in {CODEX_SKILLS.relative_to(ROOT)}")
+        return
+
     print(f"Generated {count} Codex skills in {CODEX_SKILLS.relative_to(ROOT)}")
 
 
