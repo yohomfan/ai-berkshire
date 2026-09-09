@@ -1,0 +1,85 @@
+{
+  "notes": [
+    "CFO/parent profit is a screening proxy, not cash conversion attributable solely to common shareholders.",
+    "A-share price times total shares is A-price-equivalent capitalization, not sum-of-share-classes market capitalization.",
+    "Haier annual and prior-half profits use rounded published values.",
+    "Cosco price is a September 9 intraday snapshot, not a verified closing price."
+  ],
+  "haier": {
+    "price": "21.30",
+    "shares": "9303088164",
+    "annual_parent_profit": "19553000000",
+    "half_parent_profit": "10316254946.26",
+    "prior_half_parent_profit": "12033000000",
+    "half_ocf": "9752033977.71",
+    "annual_roe": "16.98",
+    "liabilities_pct": "58.52",
+    "ttm_profit": "17836254946.26",
+    "ttm_eps": "1.917240235912269271277218867",
+    "pe": "11.10971885579323077127615756",
+    "a_price_equivalent_cap": "198155777893.20",
+    "ocf_parent_profit_pct": "94.53075780417243703225897054"
+  },
+  "cosco": {
+    "price": "16.46",
+    "shares": "15268122965",
+    "annual_parent_profit": "30868147821.38",
+    "half_parent_profit": "13418920777.40",
+    "prior_half_parent_profit": "17536092241.00",
+    "half_ocf": "23330225726.57",
+    "annual_roe": "13.17",
+    "liabilities_pct": "41.01",
+    "ttm_profit": "26750976357.78",
+    "ttm_eps": "1.752080227484597023613242821",
+    "pe": "9.394546974387737610155055199",
+    "a_price_equivalent_cap": "251313304003.90",
+    "ocf_parent_profit_pct": "173.8606711641260427074916908"
+  },
+  "sugar": {
+    "price": "19.80",
+    "shares": "2138848228",
+    "annual_parent_profit": "951225734.55",
+    "half_parent_profit": "608343069.77",
+    "prior_half_parent_profit": "444859639.76",
+    "half_ocf": "1198390331.94",
+    "annual_roe": "8.24",
+    "liabilities_pct": "39.08236599590709497726127891",
+    "ttm_profit": "1114709164.56",
+    "ttm_eps": "0.5211726339284696548370518602",
+    "pe": "37.99125032861477383169313091",
+    "a_price_equivalent_cap": "42349194914.40",
+    "ocf_parent_profit_pct": "196.9925181186140234445034862"
+  },
+  "lindsay": {
+    "ocf_net_profit_9m_pct": "68.99457072698190993264096961",
+    "liabilities_pct": "39.25634369184670227824006290",
+    "pe_at_sep8_close": "23.68076923076923076923076923",
+    "estimated_cap_usd": "1252333800.00",
+    "fcf_9m_usd_million": "-4.888"
+  },
+  "haier_hvac_revenue_pct": "29.42087088912450444987096285",
+  "haier_hvac_growth_pct": "5.697180244093954065040923200",
+  "haier_buy_range": [
+    "18.0",
+    "21.0"
+  ],
+  "haier_fair_range": [
+    "21.6",
+    "25.2"
+  ],
+  "haier_stress": "12.0",
+  "cosco_buy_range": [
+    "12.248",
+    "14.0"
+  ],
+  "cosco_fair_range": [
+    "14.0",
+    "17.50"
+  ],
+  "cosco_stress": "6.4",
+  "lindsay_watch_range": [
+    "93.6",
+    "104.0"
+  ],
+  "lindsay_stress": "52.5"
+}
