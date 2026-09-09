@@ -1,0 +1,72 @@
+{
+  "status": "INCOMPLETE_DUAL_SOURCE",
+  "note": "8 sampled points; 2 dual-source, 5 single-source, 1 formula verification. Numeric agreement is not full publication clearance.",
+  "results": [
+    {
+      "id": 3,
+      "label": "2023收入",
+      "reported_value": 331.14,
+      "fetched_value": 331.1389463603,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
+      "fetched_value2": null
+    },
+    {
+      "id": 10,
+      "label": "2024归母净利",
+      "reported_value": 17.13,
+      "fetched_value": 17.1334719126,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
+      "fetched_value2": null
+    },
+    {
+      "id": 17,
+      "label": "2025经营现金流",
+      "reported_value": 12.88,
+      "fetched_value": 12.8769312207,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
+      "fetched_value2": 12.88,
+      "fetched_source2": "https://finance.eastmoney.com/a/202604283721937969.html"
+    },
+    {
+      "id": 18,
+      "label": "2026H1经营现金流",
+      "reported_value": 11.98,
+      "fetched_value": 11.9839033194,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12561963&stockid=600737",
+      "fetched_value2": 11.98,
+      "fetched_source2": "https://finance.eastmoney.com/a/202608273856918475.html"
+    },
+    {
+      "id": 15,
+      "label": "2023经营现金流",
+      "reported_value": 8.87,
+      "fetched_value": 8.8733462575,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
+      "fetched_value2": null
+    },
+    {
+      "id": 23,
+      "label": "2025贸易糖收入",
+      "reported_value": 87.32,
+      "fetched_value": 87.3221747692,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
+      "fetched_value2": null
+    },
+    {
+      "id": 26,
+      "label": "2025番茄主营毛利率",
+      "reported_value": 30,
+      "fetched_value": 30,
+      "fetched_source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
+      "fetched_value2": null
+    },
+    {
+      "id": 35,
+      "label": "TTM简化FCF收益率",
+      "reported_value": 2.84,
+      "fetched_value": 2.84,
+      "fetched_source": "financial_rigor.py verify-valuation; FCF/share 0.44377993915798314; price 15.61; calculation, not independent financial source",
+      "fetched_value2": null
+    }
+  ]
+}
